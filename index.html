@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>index 화면</title>
+  <script src="./jquery-3.6.0.min.js"></script>
+  <script src="./index.js"></script>
+  <link href="./css/common.css" rel="stylesheet" type="text/css">
+  <link href="./css/header.css" rel="stylesheet" type="text/css">
+  <link href="./css/index.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+  <div id="container">
+      <ul id="join_menu">
+        
+      </ul>
+    <header> 
+      <div id="header_left">
+        <div id="main_logo"><a href="./index.html"><img src="main_img/-home_90315.png"></a></div>
+        <ul id="top_menu">
+          <ul class="navi">
+          <li><a href="./SN.html">Samsung Note</a></li>  
+          <li><a href="./SG.html">Samsung Galaxy</a></li>
+          <li><a href="./SW.html">Samsung Watch</a></li>
+          <li><a href="./SGF.html">Samsung Galaxy Flip</a></li>
+          <li><a href="./iP.html">iPhone</a></li>
+          <li><a href="./iApod.html">AirPods</a></li>
+          <li><a href="./iMac.html">Mac</a></li>
+          <li><a href="./iAW.html">Apple Watch</a></li>
+          
+        </ul>
+      </div> 
+    </header>
+
+    <main>
+      <div class="banner">
+        <ul id="slider_container">
+          <li class="slider"><img src="./main_img/banner4_ccexpress.png"></li>
+          <li class="slider"><img src="./main_img/banner2_ccexpress.png"></li>
+          <li class="slider"><img src="./main_img/banner1_ccexpress.png"></li>
+        </ul>
+      </div>
+      <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+      
+
+      <ul class="section_name">
+        <li class="title">NEW iPhone 제품</li>
+        <li>iPhone new product</li>
+      </ul>
+      <div id="iPhone_youtube">
+        <iframe 
+        src="https://www.youtube.com/embed/GByi_j-7Q2E" title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+        
+      </div>
+      <div class="clear"></div>
+
+      
+      <div id="panorama_items">
+        
+        <div class="clear"></div>
+      </ul>
+      <div id="ad_youtube">
+        <ul class="section_name">
+          <li class="title">New Galaxy 제품</li>
+          <li>Galaxy new product</li>
+        </ul>
+        <iframe 
+        src="https://www.youtube.com/embed/RPQz1hB8STg" title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+      </div>
+    </main>
+    <div class="clear"></div>
+    <footer>
+    </footer>
+  </div>
+</body>
+</html>
